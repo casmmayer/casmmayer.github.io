@@ -1,0 +1,128 @@
+@import url(https://fonts.googleapis.com/css?family=Crimson+Text);
+@import url(https://fonts.googleapis.com/css?family=Crimson+Text|Lato);
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing:border-box;
+}
+
+body {
+	background-color: black;
+	
+}
+
+header{
+	padding: 40px 0;
+}
+
+
+h1 {
+	font-family: 'Lato', sans-serif;
+	font-size: 72px;
+	font-style: black;
+	line-height: 100px;
+	text-align: center;
+	color: gold;
+}
+
+nav {
+	text-align: center;
+	float: center;
+}
+
+nav a {
+	margin:auto;
+	font-family: 'Lato', sans-serif;
+	margin:0 32px;
+	padding-bottom:5px;
+	font-size: 1.2em;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	color: gold;	
+}
+
+nav a:hover{
+	border-bottom: 1px solid #fff;
+}
+
+
+img {
+	width: 100%;
+}
+
+h4{
+	font-family: 'Lato', sans-serif;
+	font-size: 22px;
+	font-style: black;
+	line-height: 24px;
+	color: gold;
+	padding: 10px;
+}
+
+article{
+	width:22%;
+	margin:1.5%;
+	float:left;
+}
+
+
+section{
+	padding:16px 0;
+}
+
+
+p {
+	color: gold;
+	font-size: 22px;
+	line-height: 5px;
+	padding: 5px;
+}
+	
+
+a {
+	color: gold;
+	text-decoration: none;
+}
+
+#three_column {
+    background-color: black;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+#left {
+    background-color: black;
+    border: 1px black solid;
+    padding: 20px;
+    float: left;
+    width: 48%;
+}
+
+
+#right {
+    background-color: black;
+    border: 1px black solid;
+    padding: 20px;
+    float: right;   
+    width: 48%;
+
+
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+footer {
+	clear: both;
+	padding: 20px;
+	text-align: center;
+}
+
+
